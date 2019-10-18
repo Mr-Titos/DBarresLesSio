@@ -1,0 +1,32 @@
+.sous{
+	display:none;
+	box-shadow:1px 1px 1px #CCC;
+	background:#fec503;	
+	padding:0px 5px 0px 5px;
+	margin:0px;
+}
+
+li:hover .sous{
+	display:block;
+	position:relative;
+	
+}
+
+.sous li a{
+	color:black;
+}
+
+.sous li a:hover{
+	color:white;
+	text-decoration:none;
+}
+
+ul{
+	list-style-type:none;
+}
+
+.nav-item {	
+	height:50px;
+}
+
+
